@@ -1,0 +1,60 @@
+# ======================================
+# Visual Studio / .NET .gitignore
+# ======================================
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+[Tt]emp/
+*.tmp
+
+# Visual Studio user-specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Backup and autosave files
+*~ 
+*.bak
+*.swp
+*.sln.docstates
+
+# Test results
+TestResult*
+*.trx
+*.VisualState.xml
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Compiled DLLs and executables
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Publish output
+publish/
+dist/
+artifacts/
+
+# Windows Service backup and log folders
+DatabaseBackups/
+Logs/
+
+# Rider / JetBrains
+.idea/
+
+# macOS and system files
+.DS_Store
+Thumbs.db
